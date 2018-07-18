@@ -6,13 +6,13 @@ There is additional information about the library and its uses in the following 
 - [Library Functions](https://github.com/EL-LAB/EL-LAB_Battery_Board_Arduino_Library#library-functions)
 
 ## Arduino Examples
-#### Battery_Configure
+#### [Battery_Configure](/examples/Battery_Configure/Battery_Configure.ino)
 This example shows how to configure manually the ADC. It's recommended to use the ADC with the default settings, but it's also possible to configure it with custom settings. This sketch shows different settings combinations and checks if the ADC was properly configured by reading the configuration register.
-#### Battery_Compare
+#### [Battery_Compare](/examples/Battery_Compare/Battery_Compare.ino)
 This example compares the data provided by the ADC for different resolutions and gains. This sketch helps to see the effect of changing the resolution and gain settings.
 
 It is recommended to use `GAIN_1X` as higher gains may cause overflow. This effect is shown in this sketch.
-#### Battery_Read
+#### [Battery_Read](/examples/Battery_Read/Battery_Read.ino)
 This example shows how to get the voltage and current draw from the battery.
 
 ## Library Functions
