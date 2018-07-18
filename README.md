@@ -2,8 +2,18 @@
 This library allows using the ADC MCP3422 for reading data from its 2 channels (one channel for getting the battery voltage and one channel for getting the current draw from the battery). This library has been specifically developed for the platform **EL LAB: Battery Board**.
 
 There are additional information about the library and its uses in the following sections:
-- [Library Functions](https://github.com/EL-LAB/EL-LAB_Battery_Board_Arduino_Library#library-functions)
 - [Arduino Examples](https://github.com/EL-LAB/EL-LAB_Battery_Board_Arduino_Library#arduino-examples)
+- [Library Functions](https://github.com/EL-LAB/EL-LAB_Battery_Board_Arduino_Library#library-functions)
+
+## Arduino Examples
+#### Battery_Configure
+This example shows how to configure manually the ADC. It's recommended to use the ADC with the default settings, but it's also possible to configure it with custom settings. This sketch shows different settings combinations and checks if the ADC was properly configured by reading the configuration register.
+#### Battery_Compare
+This example compares the data provided by the ADC for different resolutions and gains. This sketch helps to see the effect of changing the resolution and gain settings.
+
+It is recommended to use `GAIN_1X` as higher gains may cause overflow. This effect is shown in this sketch.
+#### Battery_Read
+This example shows how to get the voltage and current draw from the battery.
 
 ## Library Functions
 This library includes the following functions to initialize, configure and get data from the ADC MCP3422:
@@ -72,12 +82,3 @@ It returns the battery current draw in amperes (A). This function automatically 
 ```C++
 float readCurrent(void);
 ```
-## Arduino Examples
-#### Battery_Configure
-This example shows how to configure manually the ADC. It's recommended to use the ADC with the default settings, but it's also possible to configure it with custom settings. This sketch shows different settings combinations and checks if the ADC was properly configured by reading the configuration register.
-#### Battery_Compare
-This example compares the data provided by the ADC for different resolutions and gains. This sketch helps to see the effect of changing the resolution and gain settings.
-
-It is recommended to use `GAIN_1X` as higher gains may cause overflow. This effect is shown in this sketch.
-#### Battery_Read
-This example shows how to get the voltage and current draw from the battery.
