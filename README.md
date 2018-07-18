@@ -1,7 +1,7 @@
 # EL LAB: Battery Board Arduino Library
 This library allows using the ADC MCP3422 for reading data from its 2 channels (one channel for getting the battery voltage and one channel for getting the current draw from the battery). This library has been specifically developed for the platform **EL LAB: Battery Board**.
 
-There are additional information about the library and its uses in the following sections:
+There is additional information about the library and its uses in the following sections:
 - [Arduino Examples](https://github.com/EL-LAB/EL-LAB_Battery_Board_Arduino_Library#arduino-examples)
 - [Library Functions](https://github.com/EL-LAB/EL-LAB_Battery_Board_Arduino_Library#library-functions)
 
