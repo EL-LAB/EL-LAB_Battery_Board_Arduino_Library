@@ -69,5 +69,11 @@ float readCurrent(void);
 ```
 ## Arduino Examples
 #### Battery_Configure
+This example shows how to configure manually the ADC. It's recommended to use the ADC with the default settings, but it's also possible to configure it with custom settings. This sketch shows different settings combinations and checks if the ADC was properly configured by reading the configuration register.
+
+**NOTE**: This sketch is used for testing purposes to confirm the communication between the ADC and the MCU is working fine.
 #### Battery_Compare
+This example compares the data provided by the ADC for different resolutions and gains. This sketch helps to see t
+
+**NOTE**: This sketch is used for testing purposes to confirm the communication between the ADC and the MCU is working fine.
 #### Battery_Read
