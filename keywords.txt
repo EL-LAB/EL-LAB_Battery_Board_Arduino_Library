@@ -6,7 +6,7 @@
 # Classes (KEYWORD1)
 ##############################################################
 
-Battery	KEYWORD1
+Battery KEYWORD1
 
 ##############################################################
 # Datatypes (KEYWORD1)
@@ -17,17 +17,17 @@ Battery	KEYWORD1
 # Methods and Functions (KEYWORD2)
 ##############################################################
 
-begin	KEYWORD2
-init	KEYWORD2
-configureMode	KEYWORD2
-configureResolution	KEYWORD2
-configureGain	KEYWORD2
-getConfigIC	KEYWORD2
-getConfigReg	KEYWORD2
-startConversion	KEYWORD2
-read	KEYWORD2
-readVoltage	KEYWORD2
-readCurrent	KEYWORD2
+begin KEYWORD2
+init  KEYWORD2
+configureMode KEYWORD2
+configureResolution KEYWORD2
+configureGain KEYWORD2
+getConfigIC KEYWORD2
+getConfigReg  KEYWORD2
+startConversion KEYWORD2
+read  KEYWORD2
+readVoltage KEYWORD2
+readCurrent KEYWORD2
 
 ##############################################################
 # Instances (KEYWORD2)
