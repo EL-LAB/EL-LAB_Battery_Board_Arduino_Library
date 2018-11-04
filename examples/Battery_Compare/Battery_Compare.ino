@@ -59,9 +59,9 @@ void printResults() {
   Serial.print(myBattery.readVoltage(), DEC);
   Serial.println("V");
   myBattery.startConversion(CHANNEL_2);
-  Serial.print("\tCurrent raw data (GAIN_2X): ");
+  Serial.print("\tCurrent raw data (GAIN_4X): ");
   Serial.println(myBattery.read(), BIN);
-  Serial.print("\tCurrent (GAIN_2X): ");
+  Serial.print("\tCurrent (GAIN_4X): ");
   Serial.print(myBattery.readCurrent(), DEC);
   Serial.println("A");
   
